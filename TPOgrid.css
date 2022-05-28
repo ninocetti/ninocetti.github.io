@@ -1,0 +1,76 @@
+.grid-container
+header {
+  grid-area: my-header;
+  background-color: blueviolet;
+}
+ 
+nav {
+  grid-area: my-nav;
+  background-color: black;
+}
+ 
+aside {
+  grid-area: my-aside;
+  background-color: darkmagenta;
+}
+ 
+section {
+  grid-area: my-section;
+  background-color: rgb(0, 85, 128);
+}
+ 
+footer {
+  grid-area: my-footer;
+  background-color: darkorchid;
+}
+
+.boton1 {
+  width: 140px;
+  height: 50px;
+  background-color:rgb(114, 116, 255);
+  animation-name: shutter-in-top;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+ 
+}
+@keyframes shutter-in-top {
+  0%{
+    transform: rotateX(-100deg);
+    transform-origin: top;
+    opacity: 0;
+  }
+  100%{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    opacity: 1;
+  }
+}
+
+.boton2 {
+  width: 140px;
+  height: 50px;
+  background-color:rgb(114, 116, 255);
+  animation-name: shutter-in-top;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
+@keyframes shutter-in-top {
+  0%{
+    transform: rotateX(-100deg);
+    transform-origin: top;
+    opacity: 0;
+  }
+  100%{
+    transform: rotateX(0deg);
+    transform-origin: top;
+    opacity: 1;
+  }
+}
